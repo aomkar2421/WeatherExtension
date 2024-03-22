@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container" id="c">
+        <div class="container2">
+            <div style="margin-top: 20px;">
+                <form action="" id="myForm">
+                    <input type="text" class="text" id="city">
+                    <input type="submit" class="submitbtn" id="abc" value="submit">
+                    <!-- <input class="submit" type="image" src="images/search.png" alt="Submit" onclick="submitForm()"> -->
+                </form>
+            </div>
+            <div>
+                <div style="display: flex; width: 100%; margin-bottom: 15px; margin-top: 15px; justify-content: space-around;">
+                    <div>
+                        <img src="images/sunny.png" style="height: 100px;" alt="">
+                    </div>
+                    <div style="text-align: center; padding-top: 30px;">
+                        <h2 id="cityn"></h2>
+                        <h3 id="temp"></h3>
+                        <h3 id="weather"></h3>
+                    </div>
+                </div>
+                <h2 id="date"></h2>
+
+                <div style="display: flex; width: 100%; justify-content: space-around; margin-top: 15px;">
+                    <div style="display: flex;">
+                        <img src="images/humidity2.png" style="height: 50px;" alt="">
+                        <h3 style="margin-top: 15px; margin-left: 3px;" id="humidity"></h3> <span style="margin-top: 15px; margin-left: 3px; font-weight: 700; font-size: 18px; ">%</span>
+                    </div>
+                    <div style="display: flex;">
+                        <img src="images/temp.png" style="height: 50px;" alt="">
+                        <h3 style="margin-top: 15px; margin-left: 3px;" id="tempb"></h3> <span style="margin-top: 15px; margin-left: 3px; font-weight: 700; font-size: 18px; ">&#176C</span>
+                    </div>
+                    <div style="display: flex;">
+                        <img src="images/wind.png" style="height: 50px;" alt="">
+                        <h3 style="margin-top: 15px; margin-left: 6px; " id="wind"></h3> <span style="margin-top: 15px; margin-left: 3px; font-weight: 700; font-size: 18px; ">km/h</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
